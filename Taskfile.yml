@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  app:dev:
+    desc: Run the application in development mode
+    dir: ./app
+    cmds:
+      - pnpm install
+      - pnpm tauri dev
